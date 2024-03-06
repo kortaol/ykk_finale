@@ -11,24 +11,24 @@ h1,h4 {
     font-weight: 800;
 }
 
-img {
-    border-radius: 40px;
-}
-
 a {
     text-decoration: underline;
     color: #4B9CD3;
 }
-/*
-#removeable {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+.wrapper {
+    padding: 30px;
+    margin: 40px;
+    border: #FFFFFF 5px solid;
+    border-radius: 20px;
+    box-shadow: #050505 15px 15px;
+    min-height: 180px;
 }
 
-.result_calc {
-    max-width: 50%;
-    background-color: magenta;
-    border-radius: 3px;
+#add-task {
+    background: rgb(46,200,33);
+    background: linear-gradient(120deg, rgba(46,200,33,1) 0%, rgba(65,162,57,1) 100%); 
+    text-align: center;
+    border-radius: 15px;
+    color: #f0f0f0;
+    font-weight: 400;
 }
-*/
