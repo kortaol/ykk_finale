@@ -1,7 +1,7 @@
 function addNewTask () {
     let taskNameElem = document.getElementById("task-name-input");
     let taskName = taskNameElem.value;
-    if (!taskName) { alert("Понимаю, мне тоже делать нехуй"); return }
+    if (!taskName) { alert("Понимаю, мне тоже делать нечего"); return }
 
     let listElem = document.getElementById("task-list");
     let newTaskElem = document.createElement('li');

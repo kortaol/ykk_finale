@@ -1,5 +1,7 @@
 body {
-    background-color: #252525;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #f0f0f0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* margin: 0; */
@@ -18,17 +20,44 @@ a {
 .wrapper {
     padding: 30px;
     margin: 40px;
-    border: #FFFFFF 5px solid;
+
+    backdrop-filter: blur(3.5px);
+    background-color: #ffffff49;
+
+    border: #ffffffb7 1.5px solid;
     border-radius: 20px;
-    box-shadow: #050505 15px 15px;
+    /*box-shadow: #050505 15px 15px; */
+    box-shadow: #ffffff41 0px 3px 24px;
     min-height: 180px;
+}
+.task-wrapper {
+    background-color: #7e7e7e36;
+    padding: 5px 30px;
 }
 
 #add-task {
     background: rgb(46,200,33);
-    background: linear-gradient(120deg, rgba(46,200,33,1) 0%, rgba(65,162,57,1) 100%); 
+    /*background: linear-gradient(120deg, rgba(46,200,33,1) 0%, rgba(65,162,57,1) 100%);  */
     text-align: center;
     border-radius: 15px;
+    border: none;
     color: #f0f0f0;
     font-weight: 400;
+    font-size: 25px;
+    width: 320px;
+    height: 70px;
+
+    transition: all .3s;
+}
+#add-task:hover {
+    cursor: pointer;
+    background: rgb(92, 221, 80);
+    transition: all .3s;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    bottom: 15px;
 }
